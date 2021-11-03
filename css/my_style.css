@@ -18,13 +18,13 @@ p{
 #fff
 */
 .bg-white{
-    background-color:#23282d ;
+    background-color:#101010 ;
 }
 #site1{
     background-color: #fff;
 }
 ul.navbar-nav > li > a {
-    color: #23282d !important;
+    color: #101010 !important;
 }
 .info-box-subtitle{
     color: #fff !important;
@@ -60,7 +60,7 @@ ul.navbar-nav > li > a {
 
 #step li:after {
     content: '';
-    border-left: 55px solid #f4bf0c;
+    border-left: 57px solid #f4bf0c;
     border-top: 55px solid transparent;
     border-bottom: 55px solid transparent;
     position: absolute;
@@ -75,7 +75,7 @@ ul.navbar-nav > li > a {
     display: flex;
 }
 #logo2{
-    width: 200px;
+    width: 250px;
     height: 100px;
     margin-bottom: 0px;
 }
@@ -83,7 +83,7 @@ ul.navbar-nav > li > a {
     background-color: #f4bf0c !important;
 }
 #double{
-    color: #23282d;
+    color: #101010;
 }
 #fontawsome{
     color: #f4bf0c;
@@ -94,11 +94,11 @@ ul.navbar-nav > li > a {
     margin-left: 10px;
 }
 .header-right{
-    margin-left: -70px;
+    margin-left: -200px;
 }
 #row1{
     display: flex;
-    margin-left: -150px;
+    margin-left: -115px;
 }
 .pb-0{
     padding-bottom: 70px !important;
@@ -115,4 +115,58 @@ ul.navbar-nav > li > a {
 }
 .card4{
     height: 350px;
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.67);
+    border-radius: 10px;
+}
+.info-box-title{
+    color: #525252;
+}
+#step1 {
+    padding: 0;
+    list-style-type: none;
+    font-family: arial;
+    font-size: 12px;
+    clear: both;
+    line-height: 1em;
+    margin: 0;
+    text-align: center;
+    display:table;
+    width: 100%;
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    top: 121px;
+}
+
+#step1 li {
+    float: right;
+    padding: 18px 20px 19px 20px;
+    background:#f4bf0c;
+    color: #fff;
+    position: relative;
+    width: 380px;
+    margin: 0 10px;
+    margin-left: -10px;
+    text-align: left;
+}
+
+
+#step1 li:before {
+    content: '';
+    border-right: 30px solid #f4bf0c;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    z-index: 20;
+}
+.social-icon{
+    margin-left: 40px;
+    color: black;
+}
+.si{
+    color: black;
 }

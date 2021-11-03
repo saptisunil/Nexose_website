@@ -588,7 +588,8 @@ a[href^=tel] {
 ================================================== */
 .top-bar {
   padding: 8px 0;
-  background: #ebebeb;
+  background: #222222;
+  color: #666666;
   position: relative;
 }
 
