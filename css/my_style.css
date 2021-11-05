@@ -1,3 +1,4 @@
+
 #logo_1{
     height: 80px !important;
 }
@@ -114,7 +115,7 @@ ul.navbar-nav > li > a {
     margin-right: auto;
 }
 .card4{
-    height: 420px;
+    height: 450px;
     -webkit-box-shadow: 1px 0px 23px 0px rgba(62, 50, 50, 0.24);
     -moz-box-shadow:    1px 0px 23px 0px rgba(62, 50, 50, 0.24);
     box-shadow:         1px 0px 23px 0px rgba(62, 50, 50, 0.24);
@@ -174,7 +175,34 @@ ul.navbar-nav > li > a {
     background-color: #f9f9f9 !important;
 }
 .fonts1{
-    width: 225px;
-    height: 150px;
+    width: 270px;
+    height: 190px;
     margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: 20px;
+    margin-top: -20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+.row4{
+    display: flex;
+}
+
+/*
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 500px) { 
+    #step li{ width: 300px; background-color: white; }
+    #step1 li{ width: 300px; }
+    #step1{top:300px;}
+   .header-right{ margin-left: 0px;}
+
+}
+@media only screen and (min-width: 650px) {
+    #step li{ width: 250; background-color: blanchedalmond;}
+    #step1 li{ width: 250px;}
+    .social-icon{ margin-left: 20px; }
+    #step1{top:154px;}
+} */
