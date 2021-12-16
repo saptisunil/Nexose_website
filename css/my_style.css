@@ -49,19 +49,18 @@ ul.navbar-nav > li > a {
 
 #step li {
     float: left;
-    padding: 5px 45px 5px 45px;
+    padding: 15px 45px 15px 45px;
     background:#f4bf0c;
     color: #fff;
     position: relative;
-    width: 380px;
+    width: 280px;
     margin: 0 10px;
     margin-left: -10px;
 }
 
-
-#step li:after {
+#step li::before{
     content: '';
-    border-left: 57px solid #f4bf0c;
+    border-left: 64px solid #f4bf0c;
     border-top: 55px solid transparent;
     border-bottom: 55px solid transparent;
     position: absolute;
@@ -69,15 +68,17 @@ ul.navbar-nav > li > a {
     left: 100%;
     z-index: 20;
 }
+
 .bg2{
     background-color: #23282d ;
     margin: 0;
     float: left;
     display: flex;
 }
+
 #logo2{
-    width: 250px;
-    height: 100px;
+    width: 200px;
+    height: 80px;
     margin-bottom: 0px;
 }
 .btn-primary{
@@ -138,7 +139,7 @@ ul.navbar-nav > li > a {
     margin-left: 20px;
     display: block;
     position: absolute;
-    top: 121px;
+    top: 125px;
 }
 
 #step1 li {
@@ -147,7 +148,7 @@ ul.navbar-nav > li > a {
     background:#f4bf0c;
     color: #fff;
     position: relative;
-    width: 380px;
+    width:280px;
     margin: 0 10px;
     margin-left: -10px;
     text-align: left;
@@ -187,25 +188,6 @@ ul.navbar-nav > li > a {
 .row4{
     display: flex;
 }
-
-/*
-[class*="col-"] {
-    width: 100%;
-}
-
-@media only screen and (min-width: 500px) { 
-    #step li{ width: 300px; background-color: white; }
-    #step1 li{ width: 300px; }
-    #step1{top:300px;}
-   .header-right{ margin-left: 0px;}
-
-}
-@media only screen and (min-width: 650px) {
-    #step li{ width: 250; background-color: blanchedalmond;}
-    #step1 li{ width: 250px;}
-    .social-icon{ margin-left: 20px; }
-    #step1{top:154px;}
-} */
 .top-info1{
     margin-left:-210px;
 }
