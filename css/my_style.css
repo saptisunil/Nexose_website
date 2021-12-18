@@ -139,7 +139,7 @@ ul.navbar-nav > li > a {
     margin-left: 20px;
     display: block;
     position: absolute;
-    top: 125px;
+    top: 124.45px;
 }
 
 #step1 li {
@@ -190,4 +190,38 @@ ul.navbar-nav > li > a {
 }
 .top-info1{
     margin-left:-210px;
+}
+@media only screen and (max-width: 1400px) {
+    .top-info1{
+        margin-left:0px;
+    }
+    #step1{
+        top: 155px;
+    }
+    #head_icons{
+       margin-left: 0px;
+    }
+    #step li {
+        float: left;
+        padding: 31px 45px 32px 45px;
+        background:#f4bf0c;
+        color: #fff;
+        position: relative;
+        width: 280px;
+        margin: 0 10px;
+        margin-left: -10px;
+    }
+    #step li::before{
+        content: '';
+        border-left: 72px solid #f4bf0c;
+        border-top: 72px solid transparent;
+        border-bottom: 72px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 20;
+    }
+    #ts-service-area{
+        margin-left: 95px;
+    }
 }
