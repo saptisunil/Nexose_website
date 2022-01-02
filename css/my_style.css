@@ -282,3 +282,116 @@ ul.navbar-nav > li > a {
         text-align: center;
     }
 }
+@media only screen and (max-width: 414px) {
+    .top-info1{
+        margin-left:0px;
+    }
+    #step1{
+        top: 155px;
+    }
+    #head_icons{
+       margin-left: 0px;
+    }
+    #logo2{
+        width: 150px;
+        height: 50px;
+    }
+    #step li {
+        float: left;
+        padding: 17px 23px 18px 23px;
+        background:#f4bf0c;
+        color: #fff;
+        position: relative;
+        width: 180px;
+        margin: 0 10px;
+        margin-left: -10px;
+    }
+    #step li::before{
+        content: '';
+        border-left: 42px solid #f4bf0c;
+        border-top: 44px solid transparent;
+        border-bottom: 41px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 100;
+        margin-left: -0.1px;
+    }
+    #ts-service-area{
+        margin-left: 95px;
+    }
+    #step1 {
+        padding: 0;
+        list-style-type: none;
+        font-family: arial;
+        font-size: 12px;
+        clear: both;
+        line-height: 1em;
+        margin: 0;
+        text-align: center;
+        display:table;
+        width: 100%;
+        margin-left: 20px;
+        display: block;
+        position: absolute;
+        top: 440px;
+    }
+    .info-box-title{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .top-info1{
+        margin-left:0px;
+    }
+    #head_icons{
+       margin-left: 0px;
+       margin-top: -15px;
+    }
+    #logo2{
+        width: 150px;
+        height: 50px;
+    }
+    #step li {
+        float: left;
+        padding: 17px 23px 18px 23px;
+        background:#f4bf0c;
+        color: #fff;
+        position: relative;
+        width: 180px;
+        margin: 0 10px;
+        margin-left: -10px;
+    }
+    #step li::before{
+        content: '';
+        border-left: 42px solid #f4bf0c;
+        border-top: 44px solid transparent;
+        border-bottom: 41px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 100;
+    }
+    #ts-service-area{
+        margin-left: 95px;
+    }
+    #step1 {
+        padding: 0;
+        list-style-type: none;
+        font-family: arial;
+        font-size: 12px;
+        clear: both;
+        line-height: 1em;
+        margin: 0;
+        text-align: center;
+        display:table;
+        width: 100%;
+        margin-left: 20px;
+        display: block;
+        position: absolute;
+        top: 445px;
+    }
+    .info-box-title{
+        text-align: center;
+    }
+}
