@@ -225,3 +225,60 @@ ul.navbar-nav > li > a {
         margin-left: 95px;
     }
 }
+@media only screen and (max-width: 400px) {
+    .top-info1{
+        margin-left:0px;
+    }
+    #step1{
+        top: 155px;
+    }
+    #head_icons{
+       margin-left: 0px;
+    }
+    #logo2{
+        width: 150px;
+        height: 50px;
+    }
+    #step li {
+        float: left;
+        padding: 15px 22px 16px 22px;
+        background:#f4bf0c;
+        color: #fff;
+        position: relative;
+        width: 180px;
+        margin: 0 10px;
+        margin-left: -10px;
+    }
+    #step li::before{
+        content: '';
+        border-left: 40px solid #f4bf0c;
+        border-top: 41px solid transparent;
+        border-bottom: 41px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 20;
+    }
+    #ts-service-area{
+        margin-left: 95px;
+    }
+    #step1 {
+        padding: 0;
+        list-style-type: none;
+        font-family: arial;
+        font-size: 12px;
+        clear: both;
+        line-height: 1em;
+        margin: 0;
+        text-align: center;
+        display:table;
+        width: 100%;
+        margin-left: 20px;
+        display: block;
+        position: absolute;
+        top: 435px;
+    }
+    .info-box-title{
+        text-align: center;
+    }
+}
