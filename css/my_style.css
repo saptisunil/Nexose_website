@@ -334,7 +334,7 @@ ul.navbar-nav > li > a {
         margin-left: 20px;
         display: block;
         position: absolute;
-        top: 375px;
+        top: 175px;
     }
     .info-box-title{
         text-align: center;
@@ -349,6 +349,9 @@ ul.navbar-nav > li > a {
     .top-info-box{
         visibility: hidden;
         display: none;
+    }
+    .header-one{
+        width: 1200px;
     }
 }
 @media only screen and (max-width: 375px) {
