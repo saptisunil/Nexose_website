@@ -353,7 +353,7 @@ ul.navbar-nav > li > a {
         display: none;
     }
     .header-one{
-        width: 600px;
+        width: 600px !important;
     }
     .card4{
         margin-left: -70px;
