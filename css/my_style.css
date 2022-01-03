@@ -14,10 +14,6 @@ p{
 .lead1{
     text-align: center;
 }
-/*
-#23282d black
-#fff
-*/
 .bg-white{
     background-color:#101010 ;
 }
@@ -286,6 +282,89 @@ ul.navbar-nav > li > a {
         text-align: center;
     }
 }
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+
+    .top-info1{
+        margin-left:0px;
+    }
+    #step1{
+        top: 155px;
+    }
+    #head_icons{
+       margin-left: 0px;
+    }
+    #logo2{
+        width: 150px;
+        height: 70px;
+    }
+    #step li {
+        float: left;
+        padding: 10px 30px 10px 30px;
+        background:#f4bf0c;
+        color: #fff;
+        position: relative;
+        width: 180px;
+        margin: 0 10px;
+        margin-left: -10px;
+    }
+    #step li::before{
+        content: '';
+        border-left: 44px solid #f4bf0c;
+        border-top: 45px solid transparent;
+        border-bottom: 45px solid transparent;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 100;
+        margin-left: -0.1px;
+    }
+    #ts-service-area{
+        margin-left: 95px;
+    }
+    #step1 {
+        padding: 0;
+        list-style-type: none;
+        font-family: arial;
+        font-size: 12px;
+        clear: both;
+        line-height: 1em;
+        margin: 0;
+        text-align: center;
+        display:table;
+        width: 100%;
+        margin-left: 20px;
+        display: block;
+        position: absolute;
+        top: 177px;
+    }
+    .info-box-title{
+        text-align: center;
+    }
+    .section-sub-title{
+        margin-left: -65px;
+    }
+    .top-info-box{
+        visibility: hidden;
+        display: none;
+    }
+    .header-one{
+        width: 700px !important;
+    }
+    .card4{
+        margin-left: -70px;
+        width: 21rem;
+        margin-bottom: 15px;
+    }
+    .fonts1{
+        width: 334px;
+        height: 230px;
+    }
+    .bg3{
+        margin-bottom: -50px;
+    }
+
+}}
 @media only screen and (max-width: 414px) {
     .top-info1{
         margin-left:0px;
@@ -428,7 +507,6 @@ ul.navbar-nav > li > a {
         margin-bottom: -88px;
     }
 }
-
 @media only screen and (max-width: 375px) {
     .top-info1{
         margin-left:0px;
