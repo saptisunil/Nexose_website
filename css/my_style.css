@@ -309,7 +309,7 @@ ul.navbar-nav > li > a {
     #step li::before{
         content: '';
         border-left: 44px solid #f4bf0c;
-        border-top: 44px solid transparent;
+        border-top: 45px solid transparent;
         border-bottom: 45px solid transparent;
         position: absolute;
         top: 0;
