@@ -294,11 +294,11 @@ ul.navbar-nav > li > a {
     }
     #logo2{
         width: 150px;
-        height: 50px;
+        height: 70px;
     }
     #step li {
         float: left;
-        padding: 17px 23px 18px 23px;
+        padding: 10px 10px 10px 10px;
         background:#f4bf0c;
         color: #fff;
         position: relative;
@@ -308,9 +308,9 @@ ul.navbar-nav > li > a {
     }
     #step li::before{
         content: '';
-        border-left: 42px solid #f4bf0c;
+        border-left: 44px solid #f4bf0c;
         border-top: 44px solid transparent;
-        border-bottom: 41px solid transparent;
+        border-bottom: 45px solid transparent;
         position: absolute;
         top: 0;
         left: 100%;
@@ -339,6 +339,17 @@ ul.navbar-nav > li > a {
     .info-box-title{
         text-align: center;
     }
+    .card4{
+        margin-left: -45px;
+        margin-bottom: 20px;
+    }
+    .section-sub-title{
+        margin-left: -65px;
+    }
+    .top-info-box{
+        visibility: hidden;
+        display: none;
+    }
 }
 @media only screen and (max-width: 375px) {
     .top-info1{
@@ -350,11 +361,11 @@ ul.navbar-nav > li > a {
     }
     #logo2{
         width: 150px;
-        height: 50px;
+        height: 70px;
     }
     #step li {
         float: left;
-        padding: 17px 23px 18px 23px;
+        padding: 8px 23px 7px 23px;
         background:#f4bf0c;
         color: #fff;
         position: relative;
