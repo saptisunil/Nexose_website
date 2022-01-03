@@ -155,8 +155,6 @@ ul.navbar-nav > li > a {
     margin-left: -10px;
     text-align: left;
 }
-
-
 #step1 li:before {
     content: '';
     border-right: 30px solid #f4bf0c;
@@ -269,7 +267,7 @@ ul.navbar-nav > li > a {
         margin-left: 95px;
     }
     #step1 {
-        padding: 0;
+        padding:-10px;
         list-style-type: none;
         font-family: arial;
         font-size: 12px;
@@ -384,7 +382,7 @@ ul.navbar-nav > li > a {
     #step li {
         float: left;
         padding: 8px 23px 7px 23px;
-        background:green;
+        background:#f4bf0c;
         color: #fff;
         position: relative;
         width: 180px;
