@@ -340,7 +340,7 @@ ul.navbar-nav > li > a {
         margin-left: 20px;
         display: block;
         position: absolute;
-        top: 215px;
+        top: 195px;
     }
     .info-box-title{
         text-align: center;
@@ -353,8 +353,8 @@ ul.navbar-nav > li > a {
         display: none;
     }
     .header-one{
-        width: 950px !important;
-        height: 200px;
+        width: 900px !important;
+        height: 150px;
     }
     .card4{
         margin-left: -70px;
