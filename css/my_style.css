@@ -121,6 +121,8 @@ ul.navbar-nav > li > a {
     -moz-box-shadow:    1px 0px 23px 0px rgba(62, 50, 50, 0.24);
     box-shadow:         1px 0px 23px 0px rgba(62, 50, 50, 0.24);
     border-radius: 10px;
+    width: 17rem;
+    margin-left: -20px;
 }
 .info-box-title{
     color: #525252;
@@ -190,6 +192,10 @@ ul.navbar-nav > li > a {
 }
 .top-info1{
     margin-left:-210px;
+}
+#roow{
+    margin-left: -25px !important;
+    margin-right: -25px !important;
 }
 @media only screen and (max-width: 1400px) {
     .top-info1{
@@ -334,14 +340,10 @@ ul.navbar-nav > li > a {
         margin-left: 20px;
         display: block;
         position: absolute;
-        top: 245px;
+        top: 225px;
     }
     .info-box-title{
         text-align: center;
-    }
-    .card4{
-        margin-left: -45px;
-        margin-bottom: 20px;
     }
     .section-sub-title{
         margin-left: -65px;
@@ -351,7 +353,16 @@ ul.navbar-nav > li > a {
         display: none;
     }
     .header-one{
-        width: 1200px;
+        width: 1000px;
+    }
+    .card4{
+        margin-left: -70px;
+        width: 21rem;
+        margin-bottom: 15px;
+    }
+    .fonts1{
+        width: 334px;
+        height: 230px;
     }
 }
 @media only screen and (max-width: 375px) {
