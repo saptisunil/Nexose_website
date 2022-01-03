@@ -368,7 +368,7 @@ ul.navbar-nav > li > a {
         margin-bottom: -45px;
     }
     #site1{
-        top:210;
+        top:210 !important;
     }
 }
 @media only screen and (max-width: 375px) {
