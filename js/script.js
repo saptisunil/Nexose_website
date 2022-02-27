@@ -1,12 +1,6 @@
 jQuery(function ($) {
 	'use strict';
-
-	/* ----------------------------------------------------------- */
-	/*  Fixed header
-	/* ----------------------------------------------------------- */
 	$(window).on('scroll', function () {
-
-		// fixedHeader on scroll
 		function fixedHeader() {
 			var headerTopBar = $('.top-bar').outerHeight();
 			var headerOneTopSpace = $('.header-one .logo-area').outerHeight();
@@ -30,9 +24,6 @@ jQuery(function ($) {
 			}
 		}
 		fixedHeader();
-
-
-		// Count Up
 		function counter() {
 			var oTop;
 			if ($('.counterUp').length !== 0) {
@@ -60,9 +51,6 @@ jQuery(function ($) {
 			}
 		}
 		counter();
-
-
-		// scroll to top btn show/hide
 		function scrollTopBtn() {
 			var scrollToTop = $('#back-to-top'),
 				scroll = $(window).scrollTop();
@@ -77,8 +65,6 @@ jQuery(function ($) {
 
 
 	$(document).ready(function () {
-
-		// navSearch show/hide
 		function navSearch() {
 			$('.nav-search').on('click', function () {
 				$('.search-block').fadeIn(350);
@@ -88,8 +74,6 @@ jQuery(function ($) {
 			});
 		}
 		navSearch();
-
-		// navbarDropdown
 		function navbarDropdown() {
 			if ($(window).width() < 992) {
 				$('.site-navigation .dropdown-toggle').on('click', function () {
@@ -204,9 +188,6 @@ jQuery(function ($) {
 			});
 		}
 		testimonialCarousel();
-
-
-		// team carousel
 		function teamCarousel() {
 			$('.team-slide').slick({
 				dots: false,
